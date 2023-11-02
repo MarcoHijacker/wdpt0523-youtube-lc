@@ -1,0 +1,79 @@
+/* Reset rules: */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Main container: */
+div.container {
+    padding: 25px 50px;
+}
+
+/* Navbar rules: */
+div.nav-logo img {
+    height: 25px;
+    width: auto;
+}
+input.input-search {
+    padding: 7px;
+    border-radius: 20px;
+    border-color: grey;
+}
+i {
+    font-size: 20px;
+    color: rgb(80, 79, 79);
+    margin: 0 7px;
+    cursor: pointer;
+}
+div.navbar-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+div.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Sidebar rules: */
+div.my-links {
+    padding: 7px;
+}
+div.section-tab {
+    border-bottom: solid 1px lightgray;
+}
+div.box-area {
+    display: flex;
+}
+div.left-sidebar {
+    width: 20%;
+    min-height: 500px;
+}
+
+/* Right box content: */
+div.right-content {
+    width: 80%;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.right-content div.video-box img {
+    width: 220px;
+    height: auto;
+    border-radius: 7px;
+}
+
+/* Video tab: */
+div.channel, div.views {
+    color: grey;
+}
+div.video-box {
+    margin: 15px 10px;
+}
+div.video-details {
+    display: flex;
+}
+
+
